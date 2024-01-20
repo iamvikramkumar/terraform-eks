@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Deployent
+metadata:
+   name: reactjs
+   labels:
+      app: reactjs
+spec:
+   containers:
+   - name: reactjs
+     image: iamvikramkumar/reactjs
+     ports:
+       - containerPort: 80
